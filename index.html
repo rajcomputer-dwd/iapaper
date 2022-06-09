@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>main page</title>
 <style>
   .header {
@@ -50,12 +51,17 @@ body,html {
   padding: 25px;
   text-align: center;
   text-transform: uppercase;
+  border: solid;
 }
 
+ section{
+   min-height: 100vh
+ }
 
 </style>
 </head>
   <body>
+    <section>
     <div id="main">
 <div class="header">
   <a href="index.html"><img id="image1" src="logo-for-website.png" alt="RAJ COMPUTERS"></a>
@@ -65,22 +71,25 @@ body,html {
 <div class="Department">
    <p> select the Department</p>
 </div>
-<p style="position:relative; left:26%; top:20%;">
+<p style="position:relative; left:26%; top:20%; ">
  <a href="cs.html"><img src="cs.jpg" width=20% height=20% style="padding-right:40px"></a>
   <a href="cs.html"><img src="cs.jpg" width=20% height=20% ></a>
   </p>
 </p>
-<p style="position:relative; left:26%; top:20%;">
+
+<div class="col">
+<p style="position:relative; left:26%; top:20%; class="col2"">
  <a href="cs.html"><img src="cs.jpg" width=20% height=20% style="padding-right:40px"></a>
   <a href="cs.html"><img src="cs.jpg" width=20% height=20% ></a>
   </p>
 </p>
-<p style="position:relative; left:26%; top:20%;">
+
+<p style="position:relative; left:26%; top:20%; class="col3"">
  <a href="cs.html"><img src="cs.jpg" width=20% height=20% style="padding-right:40px"></a>
-  <a href="cs.html"><img src="cs.jpg" width=20% height=20% ></a>
+<a href="cs.html"><img src="cs.jpg" width=20% height=20% ></a>
   </p>
 </p>
-<p>
+</section>
 <footer id="footer">
     Copyright (c) 2018 All Rights Reserved.
   </footer>
