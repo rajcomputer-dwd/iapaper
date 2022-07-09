@@ -5,32 +5,71 @@
     <title>Sem Page</title>
     <style>
       .header {
-      padding: 40px;
-      text-align: center;
-      background: #1abc9c;
-      color: black;
-      font-size: 30px;
+        padding: 1%;
+        text-align: center;
+        background: #1abc9c;
+        color: black;
+        font-size: 20px;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #image1
     {
-   width: 55%;
-  height: 25%;
-  float: center;
+      width: 55%;
+     height: 25%;
+     float: center;
     }
 
      .Sem
      {
-       padding: 10px;
+       padding: 1%;
        text-align: center;
        background: #A9A9A9;
        color: black;
-       font-size: 30px;
+       font-size: 20px;
      }
+
+     .options{
+     float: left;
+     }
+
+       body,html {
+         width: 100%;
+         height: 100%;
+         margin: 0;
+         padding: 0;
+         overflow-x: hidden;
+         min-height: 100%;
+       }
+
+
+     #footer {
+       background-color: #444;
+       color: #dedede;
+       font-size: 8pt;
+       letter-spacing: 1px;
+       padding: 25px;
+       text-align: center;
+       text-transform: uppercase;
+       border: solid;
+     }
+
+     div{
+       width: 100vh
+       height:100vh
+     }
+
+      section{
+        min-height: 100vh;
+      }
 
   </style>
   </head>
   <body>
+    <section>
+      <div id="main">
     <div class="header">
 <a href="index.html"><img id="image1" src="logo-for-website.png" alt="RAJ COMPUTERS"></a>
       <p>IA Papers</p>
@@ -45,15 +84,20 @@
       <a href="6sem.html"><img src="6th.jpg" width=20% height=20% ></a>
       </p>
     </p>
-    <p style="position:relative; left:26%; top:20%;">
+    <p style="position:relative; left:26%; top:20%; class="col2"">
      <a href="6sem.html"><img src="6th.jpg" width=20% height=20% style="padding-right:40px"></a>
       <a href="6sem.html"><img src="6th.jpg" width=20% height=20% ></a>
       </p>
     </p>
-    <p style="position:relative; left:26%; top:20%;">
+    <p style="position:relative; left:26%; top:20%; class="col3"">
      <a href="6sem.html"><img src="6th.jpg" width=20% height=20% style="padding-right:40px"></a>
       <a href="6sem.html"><img src="6th.jpg" width=20% height=20% ></a>
       </p>
     </p>
+  </section>
+    <footer id="footer">
+        Copyright (c) 2018 All Rights Reserved.
+      </footer>
+    </div>
   </body>
 </html>
